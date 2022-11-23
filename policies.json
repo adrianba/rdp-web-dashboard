@@ -1,0 +1,12 @@
+{
+  "policies": {
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "Homepage": {
+      "StartPage": "none"
+    },
+    "Preferences": {
+      "datareporting.policy.dataSubmissionPolicyBypassNotification": true
+    }
+  }
+}
