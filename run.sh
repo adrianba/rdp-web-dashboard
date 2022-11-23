@@ -36,7 +36,6 @@ usermod -aG sudo $1
 wait
 echo "Added user '$1'"
 replace="s|__HOMEPAGE__|$3|"
-echo $replace
 sed -i $replace /home/$1/.Xsession
 echo "Set homepage '$3'"
 
